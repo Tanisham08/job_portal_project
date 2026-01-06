@@ -1,3 +1,4 @@
+# Project customized and structured for academic use
 import os
 import sys
 # Add project root (src/) to sys.path
