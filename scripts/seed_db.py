@@ -2,7 +2,7 @@ import sys
 import os
 from datetime import datetime
 
-# Add the project root to the Python path to allow imports from `src`
+# Add the project root to the Python path to allow the imports from `src`
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 sys.path.insert(0, project_root)
 
