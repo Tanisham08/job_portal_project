@@ -5,7 +5,7 @@ def json_error(message: str, status: int):
     """Creates a standard JSON error payload and returns it as a tuple."""
     error_payload = {"error": {"message": message, "status": status}}
     # In this new version, we return the payload and status,
-    # letting the final route handler call jsonify.
+    # letting the final route handler call jsonify
     return error_payload, status
 
 def handle_http_exception(e: HTTPException):
