@@ -67,7 +67,7 @@ def next_application_id(): # New
 
 
 # --- Output Formatting (no changes to user/job, new for application) ---
-def to_user_output(doc: dict): # ... no changes
+def to_user_output(doc: dict): # ...no changes
     if not doc:
         return None
     return {
